@@ -1,0 +1,53 @@
+.tarea-forma {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+  background: gray;
+  padding: 16px;
+  border-radius: 5px;
+}
+
+#light .tarea-forma {
+  background: #333;
+  color: white;
+}
+
+#dark .tarea-forma {
+  background: #f0f0f0;
+  color: black;
+}
+.tarea-input {
+  width: 350px;
+  font-size: 1.1rem;
+  background-color: white;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 2px solid #00471b;
+}
+.tarea-boton {
+  margin: 8px;
+  padding: 5px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #00471b;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* 
+  Diego Manjarrez Viveros 
+  No logré centrar el botón de ninguna forma,
+*/
+.tarea-boton-icon {
+  margin: 8px;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background: #9535d5;
+  color: white;
+}

@@ -1,0 +1,18 @@
+.theme-boton {
+    margin: 8px;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    background: #ffffff;
+    color: black;
+    align-self: center;
+  }
+  
+  #light .theme-boton{
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  #dark .theme-boton{
+    background: #000000;
+    color: #ffffff;
+  }

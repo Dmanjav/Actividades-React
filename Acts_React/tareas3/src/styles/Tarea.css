@@ -1,0 +1,74 @@
+.tarea-contenedor {
+  width: 500px;
+  min-height: 60px;
+  background-color: #373737;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.tarea-contenedor.completada {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+  color: white;
+}
+
+#light .tarea-contenedor.completada {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+  color: white;
+}
+
+#dark .tarea-contenedor.completada {
+  background-color: black;
+  text-decoration: line-through;
+  color: #5a01a7;
+}
+
+.tarea-descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+.tarea-icono-borrar {
+  color: lightgray;
+  font-size: 1.5rem;
+}
+
+#light .tarea-contenedor {
+  background-color: #000;
+  color: #5a01a7;
+}
+
+#dark .tarea-contenedor {
+  background-color: #5a01a7;
+  color: #fff;
+}
+
+#light .tarea-descripcion {
+  color: white;
+
+}
+
+#light .tarea-icono-borrar {
+  color: #5a01a7;
+}
+
+#dark .tarea-descripcion {
+  color: white;
+}
+
+#dark .tarea-icono-borrar {
+  color: white;
+}
+
+#light .DeletIcon {
+  color: white;
+}
+
+#dark .DeletIcon {
+  color: white;
+}

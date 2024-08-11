@@ -1,0 +1,18 @@
+.tarea-boton-icon {
+  margin: 8px;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background: #9535d5;
+  color: white;
+  align-self: center;
+}
+
+#light .tarea-boton-icon {
+  background: #9535d5;
+  color: #fff;
+}
+
+#dark .tarea-boton-icon {
+  background: #fff;
+  color: #9535d5;
+}

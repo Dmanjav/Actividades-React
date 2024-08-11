@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #181818;
+}
+
+#light {
+  background: #ffffff;
+  color: #000000;
+}
+
+#dark {
+  background: #000000;
+  color: #ffffff;
+}
